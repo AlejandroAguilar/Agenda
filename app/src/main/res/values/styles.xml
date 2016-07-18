@@ -9,4 +9,13 @@
 
     </style>
 
+
+    <style name="MiBotonRaised" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/botones</item>
+        <!-- el color que hace el efecto sera blanco -->
+        <item name="colorControlHighlight">@color/colorBlanco</item>
+        <item name="android:textColor">@color/colorBlanco</item>
+    </style>
+
+
 </resources>

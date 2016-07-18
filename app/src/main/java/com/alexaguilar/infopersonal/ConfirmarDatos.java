@@ -51,7 +51,7 @@ public class ConfirmarDatos extends AppCompatActivity {
                 // Intent para regresar a la pantalla anterior
                 Intent intent = new Intent(ConfirmarDatos.this, MainActivity.class);
 
-                
+
 
                 startActivity(intent);
 

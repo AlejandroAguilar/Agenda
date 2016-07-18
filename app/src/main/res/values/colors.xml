@@ -12,5 +12,7 @@
     <color name="titulo">#051150</color>
 
     <color name="colorDatos">#010205</color>
+    <color name="colorBlanco">#ffffff</color>
+    <color name="botones">#7987e6</color>
 
 </resources>
