@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tamanio_nombre">200dp</dimen>
+    <dimen name="letraTituloConfirmar">25dp</dimen>
+    <dimen name="tamanioDatos">15dp</dimen>
+    <dimen name="marginTopDatos">25dp</dimen>
+    <dimen name="marginDatos">10dp</dimen>
+    <dimen name="marginTopBoton">40dp</dimen>
+</resources>

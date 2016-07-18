@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Material Design -->
+    <color name="colorPrimary2">#03A9F4</color>
+    <color name="colorPrimaryDark2">#0288D1</color>
+    <color name="colorAccent2">#536DFE</color>
+    <color name="lineas">#0f2cc9</color>
+    <color name="titulo">#051150</color>
+
+    <color name="colorDatos">#010205</color>
+
+</resources>

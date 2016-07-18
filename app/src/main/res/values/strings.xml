@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Información Personal</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Fecha">Fecha</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Email">Email</string>
+    <string name="Descripcion">Descripcion</string>
+    <string name="descripcion">Descripción contacto</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="TituloConfirmar">Confirmar Datos</string>
+
+    <string name="nombreConf">Nombre: </string>
+    <string name="fechaConf">Fecha Nacimiento:</string>
+    <string name="telConf">Telefono: </string>
+    <string name="emailConf">Email: </string>
+    <string name="descConf">Descripción: </string>
+
+    <string name="tituloBotonEdicion">Editar Datos</string>
+</resources>
