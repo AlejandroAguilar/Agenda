@@ -1,5 +1,6 @@
 package com.alexaguilar.infopersonal;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,6 +16,12 @@ public class ConfirmarDatos extends AppCompatActivity {
     private TextView tvEmail;
     private TextView tvDescripcion;
 
+    private String nombre;
+    private String fecha;
+    private String telefono;
+    private String email;
+    private String descripcion;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,11 +29,11 @@ public class ConfirmarDatos extends AppCompatActivity {
 
         Bundle parametros = getIntent().getExtras();
 
-        String nombre = parametros.getString(getResources().getString(R.string.Nombre));                // Nombre
-        String fecha = parametros.getString(getResources().getString(R.string.Fecha));                  // Fecha
-        String telefono = parametros.getString(getResources().getString(R.string.Telefono));            // Telefono
-        String email = parametros.getString(getResources().getString(R.string.Email));                  // Email
-        String descripcion = parametros.getString(getResources().getString(R.string.Descripcion));      // Descripcion
+         nombre = parametros.getString(getResources().getString(R.string.Nombre));                // Nombre
+         fecha = parametros.getString(getResources().getString(R.string.Fecha));                  // Fecha
+         telefono = parametros.getString(getResources().getString(R.string.Telefono));            // Telefono
+         email = parametros.getString(getResources().getString(R.string.Email));                  // Email
+         descripcion = parametros.getString(getResources().getString(R.string.Descripcion));      // Descripcion
 
         // Se colocan las variables en pantalla
         tvNombre = (TextView) findViewById(R.id.tvConfNombre);
@@ -51,10 +58,17 @@ public class ConfirmarDatos extends AppCompatActivity {
                 // Intent para regresar a la pantalla anterior
                 Intent intent = new Intent(ConfirmarDatos.this, MainActivity.class);
 
-
-
                 startActivity(intent);
+/*
+                intent.putExtra("nombre", nombre);
+                intent.putExtra("fecha",fecha);
+                intent.putExtra("telefono",telefono);
+                intent.putExtra("email",email);
+                intent.putExtra("descripcion",descripcion);
 
+                setResult(Activity.RESULT_OK,intent);
+                finish();
+*/
 
             }
         });

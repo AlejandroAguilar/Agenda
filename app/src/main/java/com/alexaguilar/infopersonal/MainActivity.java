@@ -1,5 +1,6 @@
 package com.alexaguilar.infopersonal;
 
+import android.app.Activity;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -50,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
         /////////////
 
 
+
+
+
         Button btnSguiente = (Button) findViewById(R.id.btnSiguiente);
 
         btnSguiente.setOnClickListener(new View.OnClickListener() {
@@ -78,9 +82,10 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra(getResources().getString(R.string.Fecha),fechaCompleta);
                 intent.putExtra(getResources().getString(R.string.Telefono),telefonoEdit.getText().toString());
                 intent.putExtra(getResources().getString(R.string.Email),emailEdit.getText().toString());
-                intent.putExtra(getResources().getString(R.string.Descripcion),descripcionEdit.getText().toString());
+                intent.putExtra(getResources().getString(R.string.Descripcion), descripcionEdit.getText().toString());
 
                 startActivity(intent);
+                //startActivityForResult(intent, 1);
 
 
             }
